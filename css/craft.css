@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 13pt;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #69f;
+}
+
+h1, h2 {
+	font-family: "adelle-1","adelle-2", Georgia, serif;
+}
+
+.site .title .meta a, .footer a {
+	color: #c94;
+}
+
+#banner {
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.0, #e0e0e0), color-stop(1.0, #ffffff));
+  background: -moz-linear-gradient(center bottom, #e0e0e0 0%, #ffffff 100%);
+	border-bottom: 1px solid #ddd;
+	height: 1em;
+	font-size: 12px;
+	padding: 10px;
+}
+
+#banner a {
+	color: #999;
+}
+
+#banner h4 {
+	margin-right: 10px;
+}
+
+#banner ul li {
+	float: left;
+	list-style-type: none;
+	padding: 0 5px;
+}
+
+.site {
+	margin: auto;
+	width: 40em;
+}
+
+.site .title {
+	border-bottom: 1px solid #f0f0f0;
+	font-family: "adelle-1","adelle-2", Georgia, serif;
+	padding-bottom: 25px;
+	margin: 15px 0 25px;
+}
+
+.site .title a {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.site .title .meta {
+	display: block;
+}
+
+.site .title .meta, .site .title .meta a {
+	font-size: 12pt;
+}
+
+.site #post .page_title_index a {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+.site #archives {
+	border-top: 1px solid #ddd;
+	margin-top: 25px;
+	padding-top: 20px;
+}
+
+.site #archives span.date {
+	font-family: Monaco, Consolata, Consolas, "Courier New";
+	font-size: 12pt;
+}
+
+.site #archives ul {
+	margin: 5px 0;
+}
+
+.site #archives ul li {
+	list-style-type: none;
+}
+
+.site #post .post_date {
+	color: #999;
+	font-size: 11pt;
+	padding: 5px 0;
+}
+
+.site #post .post_date a {
+	color: #999;
+}
+
+.site #post p {
+	line-height: 1.5em;
+	margin: 15px 0;
+}
+
+.site #post .highlight {
+	overflow: auto;
+	width: 715px;
+}
+
+.site #disqus_thread {
+	border-top: 1px solid #ddd;
+	margin-top: 25px;
+	padding-top: 25px;
+}
+
+.footer {
+	border-top: 1px solid #ddd;
+	color: #666;
+	font-size: 11pt;
+	margin-top: 25px;
+	padding-top: 25px;
+}
+
+.footer .contact {
+	float: left;
+	width: 11em;
+}
+
+.footer .rss {
+	float: right;
+}
